@@ -1,0 +1,70 @@
+    <!--
+    <section class="hero" style="background-color: black;">
+      <div class="hero-body">
+        <div class="container" style="max-width: 2000px;">
+          <strong style="font-size: 18px; color: #414141;">Personal Projects. <span style="color: rgb(129, 128, 128);">Take a look at what’s new, right now.</span></strong> <br><br>
+          <div class="columns is-desktop">
+            <div class="custom-carousel-container">
+              <div class="custom-carousel-slide">
+                <img src="/images/IMG_0072.jpg">
+                <img src="/images/2ed.png">
+                <img src="/images/Reu James Profile Image.jpg">
+                <img src="/images/Reu James Profile Image.jpg">
+                <img src="/images/Reu James Profile Image.jpg">
+                <img src="/images/Reu James Profile Image.jpg">
+                <img src="/images/Reu James Profile Image.jpg">
+                <img src="/images/Reu James Profile Image.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+        <script>
+          $(document).ready(function () {
+            $('.custom-carousel-slide').slick({
+              infinite: true, // Loop the carousel
+              speed: 250, // Set the speed of the carousel animation
+              slidesToShow: 4, // Set the number of slides to show on desktop
+              adaptiveHeight: true, // Set the height of the carousel to adapt to the current slide
+              prevArrow: $('.custom-carousel-prev'), // Add the previous button to the carousel
+              nextArrow: $('.custom-carousel-next'), // Add the next button to the carousel
+              responsive: [
+                {
+                  breakpoint: 768, // breakpoint for mobile devices
+                  settings: {
+                    slidesToShow: 2 // Set the number of slides to show on mobile
+                  }
+                }
+              ]
+            });
+          });
+        </script>
+    
+        <style>
+          .custom-carousel-container {
+            width: 100%;
+            /* Set the width of the carousel to fill its container */
+            margin: 0 auto;
+            /* Center the carousel horizontally */
+          }
+    
+          .custom-carousel-slide {
+            overflow: hidden;
+            width: 100%;
+            /* Set the width of the slides to fill the carousel */
+          }
+    
+          .custom-carousel-slide img {
+            border-radius: 20px;
+            width: 100%;
+            /* Set the width of the images to fill their container */
+            margin-right: 10px;
+            /* Add a margin of 10 pixels to the right of each image */
+          }
+        </style>
+        
+      </div>
+    </section>-->
